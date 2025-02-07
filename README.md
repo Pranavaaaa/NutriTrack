@@ -1,4 +1,4 @@
-# arc_pay
+# NutriTrack
 
 A new Flutter project.
 
