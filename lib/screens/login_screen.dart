@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'signup_page.dart'; // Import the signup page
+import './signup_screen.dart'; // Import the signup page
 
 class LoginPage extends StatelessWidget {
   @override

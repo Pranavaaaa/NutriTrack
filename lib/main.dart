@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import './theme.dart';
-import './pages/home_page.dart';
-import './pages/login_page.dart';
+import './utils/theme.dart';
+import './screens/home_screen.dart';
+import './screens/login_screen.dart';
+import './screens/recipe_list_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,12 +15,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // home: (context) => HomePage(),
-
-      theme:appTheme,
+      title:'NutriTrack',
+      theme: appTheme,
       themeMode: ThemeMode.system,
       routes: {
         '/': (context) => HomePage(),
         '/login': (context) => LoginPage(),
+        '/recipes': (context) => RecipeListPage(),
       },
 
     );

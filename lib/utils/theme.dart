@@ -19,9 +19,9 @@ final ThemeData appTheme = ThemeData(
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       // Set the background color of the ElevatedButton to green
-      primary: Colors.green,
+      backgroundColor: Colors.green,
       // Set the text color of the ElevatedButton to white
-      onPrimary: Colors.white,
+      foregroundColor: Colors.white,
     ),
   ),
   
@@ -37,7 +37,7 @@ final ThemeData appTheme = ThemeData(
   textButtonTheme: TextButtonThemeData(
     style: TextButton.styleFrom(
       // Set the text color of the TextButton to blue
-      primary: Colors.blue,
+      foregroundColor: Colors.blue,
     ),
   ),
 );
