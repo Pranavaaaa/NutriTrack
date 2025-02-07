@@ -4,7 +4,7 @@ import './pages/home_page.dart';
 import './pages/login_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
