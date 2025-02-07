@@ -1,0 +1,7 @@
+main.dart: The entry point of the application.
+models/: Contains data models such as user.dart, meal.dart, workout.dart, and nutrition.dart.
+services/: Contains service classes for API calls, authentication, database interactions, and AI/ML functionalities.
+screens/: Contains different screen widgets for the app, such as home, login, register, meal tracking, workout, and settings screens.
+widgets/: Contains reusable UI components like custom buttons, meal cards, workout cards, and progress charts.
+utils/: Contains utility files for constants, helper functions, and theme configurations.
+providers/: Contains provider classes for state management related to users, meals, workouts, and nutrition.
