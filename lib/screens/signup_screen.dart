@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'login_screen.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
@@ -130,7 +130,8 @@ class _SignUpPageState extends State<SignUpPage> {
                 // Already have an account? Login
                 TextButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginPage()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+
                   },
                   child: const Text("Already have an account? Log in", style: TextStyle(color: Colors.green)),
                 ),
