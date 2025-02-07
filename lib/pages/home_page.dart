@@ -7,12 +7,17 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-         
+        title: const Text('Home'),
+        backgroundColor: Colors.green,
       ),
       body: Center(
-
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/login');
+          },
+          child: const Text('Login'),
+        ),
       ),
-      drawer: Drawer(),
-    ); 
+    );
   }
 }  
