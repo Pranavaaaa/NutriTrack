@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'signup_screen.dart';
+import 'home_screen.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -114,7 +115,8 @@ class _LoginPageState extends State<LoginPage> {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text("Login Successful!")),
                         );
-                        // Proceed with login functionality
+                        // Navigate to Age Input Screen after successful login
+                        Navigator.pushReplacementNamed(context, '/age_input');
                       }
                     },
                     style: ElevatedButton.styleFrom(
@@ -140,7 +142,7 @@ class _LoginPageState extends State<LoginPage> {
                   ],
                 ),
                 const SizedBox(height: 20),
-
+                
                 // Sign Up Navigation
                 Center(
                   child: TextButton(
